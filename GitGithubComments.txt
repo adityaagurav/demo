@@ -1,0 +1,18 @@
+Git >> Version Control
+    
+    v1
+    v2
+    v3
+New v4
+
+>> It is Distributed (on Cloud)
+>> Collaboration
+>> Tracking Changes
+>> Recovery
+
+For first time to config github in our system
+git config --global user.name "adityaagurav" 
+git config --global user.email "adityagurav220906@gmail.com"
+
+Mandaroty Commands:
+git init

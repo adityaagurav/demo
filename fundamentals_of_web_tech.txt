@@ -1,0 +1,86 @@
+MEAN STACK
+>>M : MongoDb (Databse)
+>>E : ExpressJs (Backend)
+>>A : Angular (Frontend)
+>>N : NodeJs (Backend)
+
+MERN STACK
+>>M : MongoDb
+>>E : ExpressJs
+>>R : ReactJs
+>>A : Angular
+>>N : NodeJs
+
+Three Pillars
+ >>HTML (HyperTextMarkupLanguage)
+ >>CSS  (Cascading Styling Sheet)
+ >>JS   (JavaScript)
+
+Other Stacks
+ MEAN, MERN, Java Full Stack (Top 3 Trending), Python Full Stack
+ 
+ Web Dev
+     >>Building/Developers Team 
+     >>Testing Team (Manual testers/Automated Testers)     
+     >>Hosting Team (DevOps Team)
+     >>Maintainance Team/Support Team
+
+SDLC (Software Development Life Cycle):
+     >>WaterFall Model
+     >>Agil Model
+     >>Spiral Model (not useful)
+     >>Iterative Model
+     >>Incremental Model
+     >>V Shaped Model
+     >>RAD(Rapid Application Development) Model
+
+URL (Uniform Resource Locator)
+    https://www.instagram.com/ 
+    https://education.aditya.edu/FullStack
+
+    https: Protocol
+    aditya: server/domain name 
+    education: SubDomain
+    edu: TLD (Top Level Domain)
+    FullStack: Path/Location
+
+Protocol:
+      >> Set of rules / Regulations
+      http : Hyper Text Transfer Protocol
+      https: Hyper Text Transfer Protocol Secure 
+      tcp : Transmission Control Protocol
+      udp : User Datagram Protocol
+      smtp: Simple Mail Transfer Protocol
+      ftp : File Transfer Protocol
+      ip  : Internet Protocol (ipv4 & ipv6)
+
+          >>Client/WebPage -------(Uname & Upwd)------> Instagram server
+          >>SSL (Secure Socket Layer) Certification
+
+Server/Domain name: 
+       >>Unique Identifier
+           >> Eg: Google
+
+SubDomain Name:
+           >>gMeet
+           >>gDrive
+           >>gFile
+           >>gChrome
+           >>gPay
+           >>gCalender 
+           >>Gmail
+
+TLD (Top Level Domain):
+     Amazon.in. (India)
+     Amazon.com (Commercial)
+     Amazon.edu (Education)
+     Amazon.org (Organisation)
+     Amazon.uk  (United Kingdom)
+
+Offline Editors
+   >>Notepad
+   >>Notepad++
+   >>Sublime
+   >>Open Brackets
+   >>VS Code
+
