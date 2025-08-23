@@ -16,3 +16,8 @@ git config --global user.email "adityagurav220906@gmail.com"
 
 Mandaroty Commands:
 git init
+git remote add origin https://github.com/adityaagurav/demo.git
+
+
+To pull
+--> git pull origin main 
