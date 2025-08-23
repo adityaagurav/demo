@@ -21,3 +21,6 @@ git remote add origin https://github.com/adityaagurav/demo.git
 
 To pull
 --> git pull origin main 
+
+to check status
+git status
