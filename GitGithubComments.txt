@@ -24,3 +24,6 @@ To pull
 
 to check status
 git status
+
+create a new branch
+git checkout -b "..branchname.."
