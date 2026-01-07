@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h2>Forms in HTML:</h2>
+    <form action="resume.html" target="_blank" > <!--using target = "_blank" to redirect to new tab-->
+        <!-- TO REDIRECT OUR PAGE AFTER SUBMISSION, IN FORM ACTION WE GIVE NAME OF FILE WE WANT TO OPEN -->
+    <label for="fname">Enter your first name </label>
+    <input type="text" minlength="2" maxlength="30" required id="fname" required placeholder="enter first name" /> <!--text format can take alphanumeric input-->
+    
+    <label for="mname">Enter your Middle name</label>
+    <input type="text" id="mname" placeholder="enter middle name" > <!--disabled tag if we dont want user to put input there-->
+
+    <label for="lname">Enter your Last name</label>
+    <input type="text" id="lname" disabled placeholder="enter last name"> <!--disabled tag if we dont want user to put input there-->
+ <!-- placeholder tag to get some defualt pretext on our form box -->
+    <br>
+    <label for="age">Age</label>
+    <input type="number" id="age">
+    
+    <br>
+    <label for="mail">Email</label>
+    <input type="email" id="mail">
+    <br>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob"> <!--date tag to get calendar-->
+    <br>
+    <label for="pass">Enter Your Password</label>
+    <input type="password" id="pass"> <!--to mask the password : password tag-->
+    <br>
+    <label for="">Enter your shirt size</label>
+    <input type="radio" name="shirtSize" id="small"><label for="small">Small size</label> <!--We use name attribute if we want to select only one option-->
+    <input type="radio" name="shirtSize" id="medium"><label for="medium">Medium size</label>
+    <input type="radio" name="shirtSize" id="large" ><label for="large">Large size</label> <!--we use id and for tag so we dont have to click on small circle, instead we can just click on the -->
+    <br><br>
+    <p>select the known language</p>
+    <!-- using checkbox type so we can choose multiple options -->
+    <input type="checkbox" name="lang" id="eng">
+    <label for="eng">English</label>
+    <input type="checkbox" name="lang" id="marathi" checked> <!--checked tag will defaultly already check this value-->
+    <label for="marathi">Marathi</label> 
+    <input type="checkbox" name="lang" id="kannada">
+    <label for="kannada">Kannada</label>
+    <input type="checkbox" name="lang" id="hindi">
+    <label for="hindi">Hindi</label>
+    <br>
+    <label for="clr">Color of shirt</label>
+    <input type="color" id="clr"> <!--using color tag we can get colorwheel directly-->
+    <br><br>
+
+    <label for="paymentopt">Select your payment method: </label>
+    <select name="payment" id="paymentopt">
+        <option value="unified payment i">UPI</option>
+        <option value="credit">credit card</option>
+        <option value="debit">debit card</option>
+        <option value="Cash on Delivery">COD</option>
+    </select>
+
+    <br><br>
+    <label for="">Please provide your valuable feedback</label>
+    <!-- <input type="text"> instead of input tage we use text area-->
+     <textarea name="cmt" id="cmt" rows="20" cols="100" placeholder="using placeholder tag we can write in our box" ></textarea>
+     <br>
+     <!-- input type reset will, reset everything -->
+     <input type="reset">
+     <!-- input type submit will, submit our form -->
+     <input type="submit">
+     </form>
+</body>
+</html>
