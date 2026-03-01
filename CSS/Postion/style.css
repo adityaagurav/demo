@@ -1,0 +1,51 @@
+.container{
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+    margin: 100px;
+    /* position: relative; */
+}
+.box{
+    color: cornflowerblue;
+    width: 100px; 
+    height: 100px;
+}
+.static{
+    position: static;
+    background-color: antiquewhite;
+}
+.rel{
+    position: relative;
+    background-color: greenyellow;
+    top: 50px;
+    left: 150px;
+    z-index: 1;
+    /* z index will set the priority like in this
+    case relative and sticky were over riding itself so the 
+    higher the zindex more priority it will get to be on top  */
+}
+.abs{
+    /* absolute will always work with root element: html */
+    background-color: brown;
+    position: absolute;
+    right: 80px;;
+    left: 40;
+}
+.fix{
+    background-color: blueviolet;
+    /* with this its position will be sticked  */
+    position: fixed; 
+    top: 20px;
+    right: 40px;
+}
+.sticy{
+    background-color: lightslategray;
+    /* in sticky it will be fixed till parent */
+    position: sticky;
+    top: 100px;
+    left: 200px;
+    z-index: 2;
+}
+.blankspace{
+    height: 400vh;
+}

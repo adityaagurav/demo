@@ -1,0 +1,11 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+div{
+    border: 15px solid pink;
+    padding: 35px;
+    margin: 25px;
+
+}

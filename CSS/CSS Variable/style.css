@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is global variable accessible from anywhere */
+:root{
+    --primary-text-color: green;
+    --secondary-text-color: blue;
+    --card-backgroud-color: gray;
+    --parent-background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.container{
+    padding: 45px;
+    background-color: var(--parent-background-color);
+    min-height: 100vh;
+}
+
+.box{
+    padding: 20px;
+    margin-block: 20px;
+    /* --backgcolor: red */
+    background-origin: var(--card-backgroud-color);
+    border-radius: 8%;
+
+}
+
+h2{
+    /* background-color: var(--backgcolor) */
+    /* this is a local variable, applicable to the parent only like here it is Box, it will only affect those who are under Box class */
+    color: var(--secondary-text-color);
+
+
+}
+
+h4{
+    padding: 45px;
+    /* background-color: antiquewhite; */
+    color: var(--primary-text-color);
+
+}

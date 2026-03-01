@@ -1,0 +1,27 @@
+.outer-container{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    margin: 175px auto;
+}
+
+.inner-container{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scaley(1.2); */
+    /* transform: scale(1.2, 2); */
+    
+    /* transform: skew(25deg, 45deg); */
+
+    /* for translate we can write % or px */
+    /* transform: translate(50%, 50%); */
+
+    /* transform: rotate(70deg);  */
+
+    transform: rotate(45deg) scale(1.2) translate(50%) skew(25deg);
+} 

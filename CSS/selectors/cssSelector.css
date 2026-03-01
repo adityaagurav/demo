@@ -1,0 +1,56 @@
+/* 
+selector syntax:
+selectorType{
+    propertyKey: propertyValue
+}
+*/
+
+/* 1. Element Selector */
+/* p{
+    color: cadetblue;
+}
+h2{
+    color: crimson;
+} */
+
+/* 2. ID Selector -> we always have to prefix the id name with a # hashtag */
+/* #pId{
+    color: dodgerblue;
+}
+
+#gId{
+    font-family: cursive;
+} */
+
+/* the below one is nested selector -> having multiple Id and class  */
+
+/* #pId, #gId{
+    color: hotpink;
+}
+
+/* 3. Class Selector -> we always have to prefix class name with a . period */
+/* .highlighter{
+    background-color: lightpink;
+}
+
+.heading{
+    font-size: larger;
+    color: maroon;
+} */ 
+
+/* 4. Universal Selector -> for this we use * astrick */
+
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    color: khaki;
+}    */
+
+/* 5. Descendant Selector -> in here under our id only p paragraph will be styled  */
+#decSel p{ 
+    color: lightslategray;
+}
+
+/* this is a tag in where whenever you hover over a paragraph because p tag it will change its color */
+p:hover{
+    color: olive;
+}

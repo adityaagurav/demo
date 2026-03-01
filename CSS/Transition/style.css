@@ -1,0 +1,42 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 100px auto;
+    /* transition: 1s;  */
+
+    transition-duration: 0.5s;
+    transition-property: border-radius, background-color, transform;
+    transition-delay: 0.9s;
+
+    transition-timing-function: linear;
+}
+
+.box:hover{
+    background-color: aquamarine;
+    border-radius: 50%; 
+    transform: rotate(180deg);
+} 
+
+.list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.item{
+    font-size: 1.2rem;
+}
+
+nav{
+    background-color: white;
+    color: black;
+}
+
+.item:hover{ 
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    transform: translatey(-5px);
+}
